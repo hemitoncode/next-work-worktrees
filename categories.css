@@ -1,0 +1,39 @@
+.category-row {
+  margin-bottom: 1rem;
+}
+
+.category-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.25rem;
+}
+
+.category-total {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Category-specific progress bar colors */
+[data-category="food"] progress::-webkit-progress-value { background-color: #ef4444; }
+[data-category="food"] progress::-moz-progress-bar { background-color: #ef4444; }
+
+[data-category="transport"] progress::-webkit-progress-value { background-color: #f59e0b; }
+[data-category="transport"] progress::-moz-progress-bar { background-color: #f59e0b; }
+
+[data-category="entertainment"] progress::-webkit-progress-value { background-color: #8b5cf6; }
+[data-category="entertainment"] progress::-moz-progress-bar { background-color: #8b5cf6; }
+
+[data-category="utilities"] progress::-webkit-progress-value { background-color: #3b82f6; }
+[data-category="utilities"] progress::-moz-progress-bar { background-color: #3b82f6; }
+
+[data-category="housing"] progress::-webkit-progress-value { background-color: #10b981; }
+[data-category="housing"] progress::-moz-progress-bar { background-color: #10b981; }
+
+[data-category="health"] progress::-webkit-progress-value { background-color: #ec4899; }
+[data-category="health"] progress::-moz-progress-bar { background-color: #ec4899; }
+
+[data-category="shopping"] progress::-webkit-progress-value { background-color: #f97316; }
+[data-category="shopping"] progress::-moz-progress-bar { background-color: #f97316; }
+
+[data-category="education"] progress::-webkit-progress-value { background-color: #06b6d4; }
+[data-category="education"] progress::-moz-progress-bar { background-color: #06b6d4; }
