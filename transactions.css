@@ -1,0 +1,12 @@
+tr.income td {
+  color: #16a34a;
+}
+
+tr.expense td {
+  color: #dc2626;
+}
+
+.delete-btn {
+  padding: 0.25rem 0.5rem;
+  font-size: 0.85rem;
+}
